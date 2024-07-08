@@ -1,0 +1,27 @@
+.app {
+  padding: 8vh 8vw;
+}
+
+.app>div {
+  margin-top: 60px;
+  display: flex;
+  gap: 140px;
+  flex-wrap: wrap;
+}
+
+.btn {
+  margin-top: 20px;
+}
+
+.slider {
+  margin-top: 64px;
+}
+
+.checkboxes {
+  margin-top: 64px;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 28px;
+  max-width: 450px;
+}

@@ -1,0 +1,30 @@
+.slider {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.slider>input {
+  appearance: none;
+  width: 522px;
+  height: 3px;
+  background-color: var(--blue-color);
+}
+
+.slider>input::-moz-range-thumb {
+  appearance: none;
+  width: 21px;
+  height: 21px;
+  background: var(--yellow-color);
+  cursor: pointer;
+  border-radius: 0;
+  border: none;
+  position: relative;
+}
+
+.slider>p {
+  font-size: var(--fs-regular);
+  font-family: var(--font-tomorrow);
+  font-weight: var(--fw-bold);
+  color: var(--white-color);
+}

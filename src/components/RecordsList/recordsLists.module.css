@@ -1,0 +1,16 @@
+.list>div {
+  margin-top: 34px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  overflow-y: scroll;
+  max-height: 400px;
+}
+
+.list>h3 {
+  font-size: var(--fs-large);
+  font-family: var(--font-tomorrow);
+  font-weight: var(--fw-bold);
+  color: var(--white-color);
+  text-transform: uppercase;
+}

@@ -1,0 +1,15 @@
+.strengmeter {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.strengmeter>div {
+  width: 20px;
+  height: 3px;
+  background-color: var(--blue-color);
+}
+
+.active {
+  background-color: var(--red-color) !important;
+}

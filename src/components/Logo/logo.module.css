@@ -1,0 +1,8 @@
+.logo {
+  font-size: var(--fs-xl);
+  font-family: var(--font-tomorrow);
+  font-weight: var(--fw-bold);
+  color: var(--yellow-color);
+  text-transform: uppercase;
+  max-width: 326px;
+}

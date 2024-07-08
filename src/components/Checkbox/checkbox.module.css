@@ -1,0 +1,20 @@
+.checkbox {
+  font-size: var(--fs-medium);
+  font-weight: var(--fw-regular);
+  font-family: var(--font-tomorrow);
+  color: var(--white-color);
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.checkbox input {
+  appearance: none;
+  width: 24px;
+  height: 24px;
+  border: var(--yellow-color) solid 2px;
+}
+
+.checkbox input:checked {
+  background-color: var(--yellow-color);
+}

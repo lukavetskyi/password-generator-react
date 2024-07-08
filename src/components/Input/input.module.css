@@ -1,0 +1,30 @@
+.input {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 522px;
+  padding: 20px;
+
+  border: var(--blue-color) solid 2px;
+  background-color: var(--input-background);
+}
+
+.input>div {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.input>input {
+  max-width: 410px;
+  width: 100%;
+  background: none;
+  border: none;
+
+  color: var(--blue-color);
+  font-size: var(--fs-medium);
+  font-weight: var(--fw-regular);
+  font-family: var(--font-tomorrow);
+  letter-spacing: 2px;
+
+}
